@@ -1,0 +1,73 @@
+# ---------------------
+# Dart / Flutter 관련
+# ---------------------
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_oss_licenses/
+.melos_tool/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ---------------------
+# Android 관련
+# ---------------------
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.keystore
+*.jks
+
+# ---------------------
+# iOS 관련
+# ---------------------
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.symbols.zip
+
+# ---------------------
+# Web / Symbolication / Obfuscation
+# ---------------------
+app.*.symbols
+app.*.map.json
+
+# ---------------------
+# macOS 관련
+# ---------------------
+.DS_Store
+
+# ---------------------
+# IDE 및 설정
+# ---------------------
+.idea/
+*.iml
+
+# VS Code 설정은 상황에 따라 제외할 수도 있음 (개발자가 공유하려면 주석 해제)
+# .vscode/
+*.code-workspace
+
+# ---------------------
+# 로그 및 환경 변수
+# ---------------------
+*.log
+firebase-debug.log
+.env
+*.env
+
+# ---------------------
+# 테스트 및 커버리지
+# ---------------------
+coverage/
+
+# ---------------------
+# 기타 일반적인 무시 파일
+# ---------------------
+*.class
+*.lock
+*.pyc
+*.swp
+.sentryclirc
