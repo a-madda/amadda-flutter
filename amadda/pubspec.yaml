@@ -11,23 +11,23 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8 # iOS 스타일 기본 아이콘
-  flutter_riverpod: ^2.5.1 # 상태관리 (Provider 개선 버전)
-  go_router: ^14.1.2 # 선언적 라우팅 (Navigator 2.0 기반)
-  dio: ^5.4.3+1 # HTTP 클라이언트 (API 통신)
-  freezed_annotation: ^2.4.1 # 모델 클래스용 어노테이션
+  flutter_riverpod: ^2.6.1 # 상태관리 (Provider 개선 버전)
+  go_router: ^16.0.0 # 선언적 라우팅 (Navigator 2.0 기반)
+  dio: ^5.8.0+1 # HTTP 클라이언트 (API 통신)
+  freezed_annotation: ^3.1.0 # 모델 클래스용 어노테이션
   json_annotation: ^4.9.0 # JSON 직렬화/역직렬화 어노테이션
-  flutter_dotenv: ^5.1.0 # .env 파일로 환경변수 관리
-  logger: ^2.0.2+1 # 로깅 도구 (debug print 대체)
-  intl: ^0.19.0 # 날짜, 숫자 포맷팅
+  flutter_dotenv: ^5.2.1 # .env 파일로 환경변수 관리
+  logger: ^2.6.0 # 로깅 도구 (debug print 대체)
+  intl: ^0.20.2 # 날짜, 숫자 포맷팅
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^3.0.1 # Dart 공식 추천 코드 스타일 린트
-  build_runner: ^2.4.7 # 코드 자동 생성 도구
-  freezed: ^2.5.2 # Freezed 코드 생성기
-  json_serializable: ^6.8.0 # JSON 직렬화용 코드 생성기
+  flutter_lints: ^6.0.0 # Dart 공식 추천 코드 스타일 린트
+  build_runner: ^2.5.4 # 코드 자동 생성 도구
+  freezed: ^3.1.0 # Freezed 코드 생성기
+  json_serializable: ^6.9.5 # JSON 직렬화용 코드 생성기
 
 flutter:
   uses-material-design: true
