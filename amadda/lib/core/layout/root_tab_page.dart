@@ -5,7 +5,14 @@ class RootTabPage extends StatelessWidget {
   final Widget child;
   const RootTabPage({super.key, required this.child});
 
-  static const tabs = ['/home', '/search', '/chat', '/reservation', '/mypage'];
+  static const tabs = [
+    '/home',
+    '/search',
+    '/chat',
+    '/reservation',
+    '/mypage',
+    '/user',
+  ];
 
   int _locationToIndex(String location) {
     return tabs.indexWhere((path) => location.startsWith(path));
@@ -33,6 +40,7 @@ class RootTabPage extends StatelessWidget {
             label: '예약내역',
           ),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: '마이페이지'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: '유저'),
         ],
         type: BottomNavigationBarType.fixed,
       ),
